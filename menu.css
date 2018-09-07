@@ -1,0 +1,157 @@
+/* Created by Smygou | Copyright (c) 2018. All Rights reserved.
+*/
+
+#room-settings .general-settings .option button.off {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+#room-settings .general-settings .option.enabled>button.off {
+    color: white;
+    background: #0A1328!important;
+}
+
+#room-settings .general-settings .option.enabled>button.on {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+#room-settings .general-settings .value {
+    color: #6bd9ea!important;
+    text-shadow: 1px;
+    text-align: center;
+    font-weight: bold;
+    width: 60% !important;
+    overflow: hidden!important;
+}
+
+#room-settings .general-settings .value a {
+    color: #4298a5 !important;
+    text-shadow: 1px;
+}
+
+#room-settings .general-settings .welcome {
+    margin-left: 22%;
+}
+
+#room-settings .general-settings .edit span {
+    display: none;
+}
+
+#room-settings .general-settings .edit i {
+    display: none;
+}
+
+#room-settings {
+    background: url('http://i.imgur.com/Usz5qRh.jpg') no-repeat !important;
+    background-size: cover !important;
+}
+
+#room-settings .general-settings .option button {
+    border-radius: 5px;
+    background: #0A1328;
+    color: white;
+}
+
+#room-settings .general-settings .description {
+    background: rgba(255, 255, 255, 0.08)!important;
+    text-align: center;
+    font-weight: bold;
+    width: 60% !important;
+    border-radius: 30px;
+    margin-left: 22%;
+    height: 50% !important;
+}
+
+#room-settings .general-settings .option .title {
+    color: #c2f2f9;
+}
+
+#room-settings .general-settings .panel .title {
+    display: none;
+}
+
+#room-settings .general-settings .panel .title {
+    display: none;
+}
+
+#room-settings .general-settings .description textarea {
+    min-width: 50% !important;
+    max-width: 50% !important;
+    width: 50% !important;
+}
+
+#room-settings .general-settings .description .value {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#room-settings .general-settings .description .value a:nth-of-type(7) {
+    display: none;
+}
+
+.dropdown dt {
+    background: #0A1328 !important;
+}
+
+.dropdown dd .row {
+    background: #0A1328 !important;
+    color: white!important;
+}
+
+#room-settings-menu {
+    background: #0A1328 !important;
+    opacity: 0.50;
+    filter: alpha(opacity=70);
+    border-radius: 20px
+}
+
+#room-settings-menu .item.selected {
+    background: rgba(37, 58, 109, 0.6)!important;
+    border-radius: 7px;
+    color: white!important;
+}
+
+#room-settings-menu .title {
+    color: #5b9eea;
+}
+
+#footer-user.showing .back {
+    background: rgba(37, 58, 109, 0.4);
+}
+
+
+/*left plug mini menu*/
+
+#app-menu.open .list {
+    color: white !important;
+}
+
+#app-menu.open .button i {
+    display: none;
+}
+
+#app-menu.open {
+    background: transparent !important;
+}
+
+#app-menu.open .list {
+    background: url('http://i.imgur.com/Usz5qRh.jpg') no-repeat !important;
+    background-size: cover !important;
+}
+
+#app-menu .list a {
+    color: white;
+}
+
+#app-menu .list .item:hover {
+    background: rgba(37, 58, 109, 0.6)!important;
+    border-radius: 7px;
+}
+
+#app-menu .list .item {
+    box-shadow: inset 0 0 0 0 #323742!important;
+    -webkit-box-shadow: inset 0 0 0 0 #323742!important;
+}
+
+#app-menu .button {
+    background-color: #0A1328!important;
+}
