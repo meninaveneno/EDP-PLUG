@@ -10,6 +10,10 @@
 @import url("https://rawgit.com/meninaveneno/EDP-PLUG/master/geral.css");
 @import url('https://rawgit.com/meninaveneno/ROCK-STORY/master/usuario.css');
 
+.left-side-wrapper { background-position-x: center !important; background-position-y: bottom !important;
+background-repeat: no-repeat !important; background-size: 1600px 900px !important;
+max-height: 900px !important; background-image: url(http://i.imgur.com/Usz5qRh.jpg) !important;
+}  
 
 #footer #footer-user .info {
     z-index: 0!important;
