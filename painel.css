@@ -1,0 +1,398 @@
+/* Created by Smygou | Copyright (c) 2018. All Rights reserved.
+*/
+
+#dashboard {
+    background: url('http://i.imgur.com/Usz5qRh.jpg') no-repeat !important;
+    background-size: cover !important;
+}
+
+.communities .grid .cell {
+    background: rgb(36, 57, 109)!important;
+    border-radius: 15px;
+}
+
+.communities .grid .cell .meta {
+    background: rgba(36, 57, 109, 0.8)!important;
+    color: white
+}
+
+.communities .grid .cell .meta .host,
+.communities .grid .cell .meta .now-playing {
+    color: white!important
+}
+
+.communities .grid .cell .favorite {
+    border-radius: 10px!Important;
+    background: #0B152D!important;
+}
+
+.communities .grid .cell .bar {
+    background: #0B152D!important;
+}
+
+.communities .grid .cell .favorite i:hover {
+    animation: voterAnimation 1s ease infinite;
+}
+
+.tab-menu button.selected {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+#dashboard .search,
+.tab-menu button {
+    border-radius: 10px;
+    background: #0B152D;
+    color: white;
+}
+
+.tab-menu button:hover {
+    background: #0B152D;
+}
+
+.tab-menu button.selected:hover {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+#user-view {
+    background: url('http://i.imgur.com/Usz5qRh.jpg') no-repeat !important;
+    background-size: cover !important;
+}
+
+#user-settings .container .cap .title,
+#user-settings .container .item span {
+    color: white;
+}
+
+.user-content.profile .points .subscribe-button {
+    background: rgba(255, 255, 255, 0.07)!important;
+    border-radius: 10px;
+}
+
+.user-content.profile .points .subscribe-button:hover {
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 10px;
+}
+
+#user-menu .avatar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience .xp .bar .progress {
+    background: #2869DD !important;
+}
+
+.experience .xp .bar {
+    border-radius: 100px!important;
+}
+
+.experience .levels .level.earned.ep .label,
+.experience .levels .level.earned.pp .label {
+    background: #2872DD !important;
+}
+
+.experience .levels .level.earned.community .label {
+    background: #2869DD !important;
+}
+
+.experience .levels .level.earned.avatar .label {
+    background: #2B98E2 !important;
+}
+
+.experience .levels .level {
+    background-color: #0A1328!important;
+}
+
+.user-content.profile .meta .blurb .box {
+    background: rgba(255, 255, 255, 0.1)!important;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 235, 255, 0.6);
+    border-radius: 7px;
+}
+
+.user-content.profile .meta .blurb input {
+    box-shadow: inset 0 0 0 1px #00ebff !important;
+    -webkit-box-shadow: inset 0 0 0 1px#00ebff !important;
+    -moz-box-shadow: inset 0 0 0 1px #00ebff !important;
+}
+
+.user-content.profile .meta.is-staff .role span {
+    display: none;
+}
+
+.user-content.profile .meta .blurb .arrow-up {
+    display: none;
+}
+
+.user-content .header {
+    -webkit-box-shadow: inset 0 0 0 0 #000;
+    box-shadow: inset 0 0 0 0 #000;
+}
+
+.experience .xp .bar {
+    background: black!important;
+}
+
+.experience .levels .level.mystery .label,
+.experience .levels .level .label {
+    background: black!important;
+}
+
+#user-inventory .grid .cell .top {
+    background: transparent;
+    border-radius: 80px;
+}
+
+.user-content .grid .cell {
+    background: #253859!important;
+    border-radius: 80px;
+}
+
+.user-content .grid .cell .top {
+    background: transparent;
+}
+
+#user-view .banner {
+    display: none;
+}
+
+#user-inventory .grid {
+    margin-top: 15px;
+}
+
+.user-content.profile .notifications .row {
+    background: transparent;
+}
+
+.experience .xp .next-level {
+    color: white;
+}
+
+#user-settings .container .cap .value {
+    display: none;
+}
+
+#user-friends .list .row .joined,
+.user-content.profile .notifications .row .timestamp,
+#user-inventory .history .legend span,
+.user-content .header span {
+    color: #3B768D !important;
+    font-weight: bold;
+}
+
+.media-list.history .meta .timestamp,
+.user-content.profile .points .label,
+.user-content.profile .meta .joined {
+    color: #3B768D;
+}
+
+#user-friends .list .row .joined {
+    font-size: 11px;
+    padding-left: 30px;
+}
+
+#user-friends .list .row .level span,
+#user-friends .list .row .level .label {
+    color: #5FC6D6;
+    font-weight: bold;
+}
+
+#user-friends .list .row .buttons button {
+    background: transparent !important;
+    box-shadow: 1px rgba(255, 255, 255, 0.2)!important;
+    ;
+}
+
+#user-friends .list .row .buttons button:hover {
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-radius: 30px;
+}
+
+#user-friends .list .row .level {
+    padding-left: 25px;
+}
+
+#user-friends .list .row .name {
+    font-weight: bold;
+}
+
+#user-menu {
+    background: #0A1328 !important;
+    opacity: 0.60;
+    filter: alpha(opacity=70);
+    border-radius: 20px
+}
+
+.user-content.profile .experience {
+    background: rgba(255, 255, 255, 0.1)!important;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.experience .description {
+    font-weight: bold;
+    color: rgba(0, 235, 255, 0.7);
+}
+
+.user-content .section {
+    width: 93%!important
+}
+
+#user-menu .item.selected {
+    background: rgba(37, 58, 109, 0.6)!important;
+    border-radius: 7px;
+}
+
+#user-menu .avatar,
+#user-inventory .avatars .grid .cell.selected .top {
+    background: rgba(255, 255, 255, 0.1)!important;
+    border-radius: 80px;
+}
+
+#user-inventory .badges .grid .cell:hover {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+    border-radius: 80px;
+}
+
+#user-inventory .badges .grid .cell.selected {
+    box-shadow: #4D68A8 0px 0px 0px 2px inset;
+}
+
+#user-menu .avatar,
+#user-inventory .avatars .grid .cell:hover {
+    background: rgba(255, 255, 255, 0.1)!important;
+    border-radius: 80px;
+}
+
+#user-menu .avatar,
+#user-inventory .avatars .grid .cell:hover {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+#user-settings .container button {
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4D68A8;
+}
+
+#user-settings .container button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#user-settings .container label {
+    display: none;
+}
+
+.user-content .grid .cell:hover>.top {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+    border-radius: 80px;
+}
+
+#user-store .badges .grid .cell .top {
+    background: transparent;
+    border-radius: 80px;
+}
+
+#user-store .badges .grid .cell .top:hover {
+    background: linear-fgradient(to bottom right, #314673, #263344)!important;
+    border-radius: 80px;
+}
+
+#user-store .misc .grid .cell {
+    border-radius: 10px;
+    background: transparent;
+}
+
+#user-store .misc .grid .cell .title-bar {
+    background: rgba(255, 255, 255, 0.07)!important;
+}
+
+#user-store .misc .grid .cell .top {
+    background: transparent!important;
+}
+
+#user-store .misc .grid .cell .top:hover {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+    border-radius: 80px;
+}
+
+#user-friends .list .row {
+    background: rgba(255, 255, 255, 0.09)!important;
+    border-radius: 20px;
+}
+
+.user-content.communities .grid .cell {
+    border-radius: 10px;
+}
+
+.user-content.communities .grid .cell {
+    height: 210px;
+}
+
+.user-content.communities .message {
+    color: rgba(0, 235, 255, 0.7);
+    ;
+}
+
+.user-content.communities .message a,
+.user-content.communities .message a:visited {
+    color: #4298a5;
+    font-weight: bold!important;
+}
+
+#user-menu .item.notify .count {
+    background-color: #5478ce!important
+}
+
+#chat ::-webkit-scrollbar {
+    background: #07163a!important;
+    border-radius: 50px;
+}
+
+#chat ::-webkit-scrollbar-thumb {
+    background: rgba(37, 58, 109, 0.5)!important;
+    border-radius: 50px;
+}
+
+#media-panel .header .import-button,
+#media-panel .header .back {
+    background: #142856!important;
+}
+
+.drag-media-box {
+    background: rgba(77, 104, 168, 0.5);
+}
+
+#playlist-import-panel .button {
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4D68A8;
+}
+
+#import-youtube .button {
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+#playlist-import-panel .button:hover {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+#import-youtube .youtube-input {
+    background-color: #0C1E2F!important;
+}
+
+.communities .grid {
+    margin-top: 30px;
+}
