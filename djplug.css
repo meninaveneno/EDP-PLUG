@@ -307,3 +307,9 @@
 .pop-menu.grab .menu ul li.create:hover {
     background: rgba(255, 141, 67, 0.50)!important;
 }
+
+.community .room-controls--desktop {
+background-color: rgba(0, 0, 0, 0);
+border: none;
+    
+}
