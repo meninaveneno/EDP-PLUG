@@ -1,0 +1,121 @@
+[data-view="room"]
+  .bottom__playback-controls
+  .volume-bar
+  .progress
+  .progress-bar {
+  background-color: #323651 !important;
+}
+
+.pop-up-tooltip {
+  display: none !important;
+}
+
+.community__left-nav,
+.bottom__playback-meta,
+.bottom__playback-controls,
+.community__top {
+  background-color: #040616 !important;
+}
+
+.community .bottom__playback-controls--desktop .community__player-item.history,
+.community
+  .bottom__playback-controls--desktop
+  .community__player-item.share-song-trigger {
+  border-left: 0px !important;
+}
+
+.community__playlist--desktop,
+.community__playlist--mobile,
+.community__playlist {
+  background-color: #111928 !important;
+}
+
+.community .community__name {
+  color: white !important;
+  font-weight: bold;
+  transition: ease-in-out 0.4s;
+}
+
+.community .community__name:hover {
+  color: #111928 !important;
+  cursor: default;
+}
+
+@-webkit-keyframes rotateHover {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotateUndoHover {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes wobble {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes wobbleD {
+  0% {
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes cartMove {
+  0% {
+    transform: translate(0px);
+  }
+  20% {
+    transform: translate(3px);
+  }
+  40% {
+    transform: translate(0px);
+  }
+  60% {
+    transform: translate(-3px);
+  }
+  80% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(3px);
+  }
+}
+.nav-left__item.menu-dashboard .nav-left__item-icon {
+  animation: rotateUndoHover 2s;
+}
+.nav-left__item.menu-dashboard:hover .nav-left__item-icon {
+  animation: rotateHover 3s;
+}
+
+.nav-left__item.menu-store:hover .nav-left__item-icon {
+  animation: cartMove 0.5s;
+}
+
+.nav-left__item.menu-calendar:hover .nav-left__item-icon,
+.nav-left__item.menu-room:hover .nav-left__item-icon {
+  animation: wobble 2s infinite;
+}
+
+.nav-left__item.menu-calendar .nav-left__item-icon,
+.nav-left__item.menu-room .nav-left__item-icon {
+  animation: wobbleD 1s;
+}
