@@ -1,0 +1,309 @@
+/* Created by Smygou | Copyright (c) 2018. All Rights reserved.
+*/
+
+#dj-button .left {
+    background: transparent!important;
+    transition: ease-in-out 0.8s;
+    width: 100%;
+    border-radius: 20px!important;
+}
+
+#dj-button .left .icon {
+    display: none!important;
+}
+
+#dj-button span {
+    margin-left: 30px;
+}
+
+#dj-button.is-locked {
+    cursor: not-allowed;
+}
+
+#dj-button.is-full .left,
+#dj-button.is-locked .left {
+    background: transparent!important;
+}
+
+#dj-button.is-leave .left,
+#dj-button.is-quit .left {
+    background-color: rgba(37, 58, 109, 0.5)!important;
+    text-shadow: 2px 2px black!important;
+    border-radius: 20px!important;
+    width: 100%;
+}
+
+#dj-button .left {
+    background-color: transparent!important;
+    border-radius: 20px!important;
+}
+
+#dj-button {
+    width: 200px;
+    border-radius: 6px;
+    background-color: transparent !important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px!important;
+    transition: ease-in-out 0.4s;
+    border-width: 2px;
+}
+
+#dj-button:hover {
+    transition: 0.3s;
+    background-color: rgba(37, 58, 109, 0.5)!important;
+    text-shadow: 1px 1px black!important;
+}
+
+
+/*
+ * Woot
+ * Grab
+ * Meh
+*/
+
+#woot {
+    width: 75px!important;
+    height: 75px!important;
+    transition: ease-in-out 0.2s!important;
+    background-color: transparent!important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 3px;
+    background-image: url(https://nightbloo.github.io/plug/icons/woot.png)!important;
+    background-size: 70%!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    margin-left: 5px;
+}
+
+#grab {
+    width: 75px!important;
+    height: 75px!important;
+    transition: ease-in-out 0.2s!important;
+    background-color: transparent!important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 3px;
+    background-image: url(https://nightbloo.github.io/plug/icons/grab.png)!important;
+    background-size: 70%!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    margin-left: 2px!important;
+    margin-right: 2px!important;
+}
+
+#meh {
+    width: 75px!important;
+    height: 75px!important;
+    transition: ease-in-out 0.2s!important;
+    background-color: transparent!important;
+    border-style: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 3px;
+    background-image: url(https://nightbloo.github.io/plug/icons/meh.png)!important;
+    background-size: 70%!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+}
+
+#woot.selected,
+#woot:hover {
+    background-color: rgba(33, 230, 0, 0.2)!important;
+    transition: ease-in-out 0.2s!important;
+}
+
+#grab.selected,
+#grab:hover {
+    background-color: rgba(0, 235, 255, 0.2)!important;
+    transition: ease-in-out 0.2s!important;
+}
+
+#meh.selected,
+#meh:hover {
+    background-color: rgba(255, 109, 40, 0.2)!important;
+    transition: ease-in-out 0.2s!important;
+}
+
+#woot.crowd-response.disabled.active .bottom,
+#vote.crowd-response.disabled.active,
+#woot .bottom,
+#grab .bottom,
+#meh .bottom {
+    background-color: transparent !important;
+}
+
+#woot .top,
+#grab .top,
+#meh .top {
+    display: none!important;
+}
+
+#vote .crowd-response .value {
+    margin-top: 17px;
+    font-size: 11px!important;
+}
+
+#woot .crowd-response .value {
+    margin-top: -90px
+}
+
+#woot .bottom {
+    text-shadow: 1px 1px black;
+    animation: otherway .5s;
+    animation-fill-mode: forwards;
+}
+
+#woot.crowd-response .bottom .value {
+    font-size: 14px!important;
+    padding-top: 4px;
+    display: block;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 27px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: -25px;
+    background-color: #1F4308;
+}
+
+#woot:hover .bottom {
+    display: block;
+    animation: voteslide .5s;
+    animation-fill-mode: forwards;
+}
+
+#meh .bottom {
+    text-shadow: 1px 1px black;
+    animation: otherway .5s;
+    animation-fill-mode: forwards;
+}
+
+#meh.crowd-response .bottom .value {
+    font-size: 14px!important;
+    padding-top: 4px;
+    display: block;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 27px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: -25px;
+    background-color: #D10602;
+}
+
+#meh:hover .bottom {
+    display: block;
+    animation: voteslide .5s;
+    animation-fill-mode: forwards;
+}
+
+#grab .bottom {
+    text-shadow: 1px 1px black;
+    animation: otherway .5s;
+    animation-fill-mode: forwards;
+}
+
+#grab.crowd-response .bottom .value {
+    font-size: 14px!important;
+    padding-top: 4px;
+    display: block;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 27px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: -25px;
+    background-color: #05557D;
+}
+
+#grab:hover .bottom {
+    display: block;
+    animation: voteslide 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.votes-rs {
+    display: none!important;
+}
+
+@keyframes voteslide {
+    0% {
+        top: 20px;
+        opacity: 0
+    }
+    25% {
+        top: 10px;
+    }
+    75% {
+        top: 5px
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes otherway {
+    0% {
+        top: 15px;
+    }
+    25% {
+        top: 20px;
+    }
+    75% {
+        top: 25px
+    }
+    100% {
+        top: 30px;
+        opacity: 0
+    }
+}
+
+.votes-rs {
+    display: none!important;
+}
+
+.pop-menu.menu {
+    background-color: transparent!important;
+}
+
+.pop-menu.grab {
+    background: transparent;
+    width: 250px
+}
+
+.pop-menu.grab .bar {
+    display: none;
+}
+
+.pop-menu .bar .bar-divider {
+    background: #AAA;
+}
+
+.pop-menu.grab .menu::-webkit-scrollbar-thumb {
+    background: rgba(255, 141, 68, 0.3)!important;
+}
+
+.pop-menu.grab .menu ul {
+    background: rgba(0, 0, 0, 0.7)!important;
+    border-radius: 10px!important;
+}
+
+.pop-menu.grab .menu ul li:hover {
+    background: rgba(255, 255, 255, 0.4)!important;
+    border-radius: 50px!important;
+    text-shadow: 2px 2px black;
+}
+
+.pop-menu.grab .menu ul li.create:hover {
+    background: rgba(255, 141, 67, 0.50)!important;
+}
