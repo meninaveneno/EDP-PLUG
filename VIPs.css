@@ -37,8 +37,8 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-        /*# [#] #*/
-#user-rollover.id-0000000 .level:after {
+        /*# [Lolla] #*/
+#user-rollover.id-23246837 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[VIP]";
@@ -120,8 +120,8 @@
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 10px;
 }
-        /*# [00000000] #*/
-#chat [data-cid^='null-'] .un:after, #user-lists .list .user.id-0000000 .name:after, #user-rollover.id-00000000 .username:after {
+        /*# [Lolla] #*/
+#chat [data-cid^='23246837-'] .un:after, #user-lists .list .user.id-23246837 .name:after, #user-rollover.id-23246837 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 5px;
     color: #2b7b30;
@@ -202,8 +202,8 @@
     padding-right: 4px;
     position: relative;
 }
-		/*# null #*/
-#chat [data-cid^='null-'] .un:before {
+		/*# Lolla #*/
+#chat [data-cid^='23246837-'] .un:before {
     content: '[VIP]';
     top: 0px;
     Left: 0px;
