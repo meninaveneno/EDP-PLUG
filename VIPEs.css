@@ -48,8 +48,8 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-        /*# [#] #*/
-#user-rollover.id-0000000 .level:after {
+        /*# [Mina] #*/
+#user-rollover.id-38741985 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[VIP]";
@@ -128,8 +128,8 @@
 }
 	/*## [TAG-EXTRA] ##*/
 	
-        /*# [Ninguem] #*/
-#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+        /*# [Mina] #*/
+#chat [data-cid^='38741985-'] .un:after, #user-lists .list .user.id-38741985 .name:after, #user-rollover.id-38741985 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 5px;
     color: #2b7b30;
@@ -212,8 +212,8 @@
     padding-right: 4px;
     position: relative;
 }
-		/*# null #*/
-#chat [data-cid^='null-'] .un:before { 
+		/*# Mina #*/
+#chat [data-cid^='38741985-'] .un:before { 
     content: '[VIP]';
     top: 0px;
     Left: 0px;
