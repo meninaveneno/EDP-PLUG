@@ -49,7 +49,7 @@
         botName: '⇨ ∂σяιтσ ⇦',
         language: 'Portuguese',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/pt-BR.json',
-        scriptLink: 'https://rawgit.com/meninaveneno/basicbot/master/basicbot.js',
+        scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -67,13 +67,13 @@
         lockGuard: false,
         maximumLocktime: 10,
         cycleGuard: true,
-        maximumCycletime: 15,
+        maximumCycletime: 25,
         voteSkip: false,
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
         strictTimeGuard: true,
-        maximumSongLength: 15,
+        maximumSongLength: 25,
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -115,6 +115,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/meninaveneno/basicbot/master/basicbot.js", extend);
+    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
 
 }).call(this);
