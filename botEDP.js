@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: 'Dorito',
+        botName: '⇨ ∂σяιтσ ⇦',
         language: 'Portuguese',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/pt-BR.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
@@ -67,13 +67,13 @@
         lockGuard: false,
         maximumLocktime: 10,
         cycleGuard: true,
-        maximumCycletime: 10,
+        maximumCycletime: 15,
         voteSkip: false,
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
         strictTimeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 15,
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
