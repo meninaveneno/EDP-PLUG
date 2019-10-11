@@ -3,13 +3,13 @@
 }
 
 #user-rollover .info .role i.icon-chat-dj {
-    content: "CONSAGRADO";
+    content: "DJ MASTER";
     position: absolute;
     margin: 0 0 0 -63px!important;
 }
 
 #user-rollover .info .role i.icon-chat-dj:after {
-    content: "CONSAGRADO";
+    content: "DJ MASTER";
     position: absolute!important;
     margin: -2px 10px 0 19px!important;
     font-style: normal;
@@ -21,7 +21,7 @@
 }
 
 #user-lists .list.staff .group.dj .icon-chat-dj:after {
-    content: "CONSAGRADO"!important;
+    content: "DJ MASTER"!important;
     margin: 0px 0px 0px 30px!important;
     padding-bottom: 10px!important;
     font-style: normal;
@@ -33,7 +33,7 @@
 }
 
 #dialog-user-role .role-menu .menu li.dj i:after {
-    content: "CONSAGRADO";
+    content: "DJ MASTER";
     font-size: 13px;
     font-style: normal;
     margin: -5px 0px 0px 23px!important;
